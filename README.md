@@ -1,9 +1,9 @@
-# zbg
+# gg
 
-[![GitHub CI](https://github.com/chshersh/zbg/workflows/CI/badge.svg)](https://github.com/chshersh/zbg/actions)
+[![GitHub CI](https://github.com/aresbit/gg/workflows/CI/badge.svg)](https://github.com/aresbit/gg/actions)
 [![MPL-2.0 license](https://img.shields.io/badge/license-MPL--2.0-blue.svg)](LICENSE)
 
-`zbg` (short for **Z**ero **B**ullshit **G**it) is a CLI tool for using `git` efficiently.
+`gg` (原名为 **Z**ero **B**ullshit **G**it) 是一个高效使用 `git` 的 CLI 工具。
 
 ## Features
 
@@ -11,40 +11,40 @@
 * 🚀 Sane defaults to `git` commands that enforce good state of your local repository
 * 🌌 Achieving more by typing less
 
-| `zbg status` | `zbg log` |
+| `gg status` | `gg log` |
 | --- | --- |
 | ![zbg status](./images/zbg-status-demo.png) | ![zbg log](./images/zbg-log-demo.png) |
 
 > [!IMPORTANT]
-> `zbg` is developed and maintained in free time
+> `gg` 由志愿者在空闲时间开发和维护
 > by volunteers. The development may continue for decades or may stop
 > tomorrow. You can use
-> [GitHub Sponsorship](https://github.com/sponsors/chshersh) to support
+> [GitHub Sponsorship](https://github.com/sponsors/aresbit) to support
 > the development of this project.
 
 ## Install
 
 > [!NOTE]
-> Currently `zbg` can be installed only by building it [from sources](#from-sources).
-> Alternative installation methods [may appear later](https://github.com/chshersh/zbg/issues/8).
+> 目前 `gg` 只能通过[从源码构建](#从源码安装)来安装。
+> 其他安装方法[可能会在以后提供](https://github.com/aresbit/gg/issues/8)。
 
-### From sources
+### 从源码安装
 
-1. Clone the repository
+1. 克隆仓库
     ```shell
-    git clone git@github.com:chshersh/zbg.git
-    cd zbg
+    git clone git@github.com:aresbit/gg.git
+    cd gg
     ```
-2. Build the executable
+2. 构建可执行文件
     ```shell
     opam install . --deps-only --with-doc --with-test
     dune build
     ```
-3. Copy the executable under your location in `$PATH`, e.g.:
+3. 将可执行文件复制到 `$PATH` 中的位置，例如：
     ```shell
-    cp -f ./_build/default/bin/main.exe ~/.local/bin/zbg
+    cp -f ./_build/default/bin/main.exe ~/.local/bin/gg
     ```
-4. Run `zbg --help`
+4. 运行 `gg --help`
 
 ## Configure
 
@@ -150,7 +150,7 @@ the most common case but you may still need to use `git` occasionally.
 
 ## For contributors
 
-Check [CONTRIBUTING.md](https://github.com/chshersh/zbg/blob/main/CONTRIBUTING.md)
+Check [CONTRIBUTING.md](https://github.com/aresbit/zbg/blob/main/CONTRIBUTING.md)
 for contributing guidelines.
 
 ## Development

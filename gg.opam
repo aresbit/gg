@@ -6,9 +6,9 @@ maintainer: ["Dmitrii Kovanikov"]
 authors: ["Dmitrii Kovanikov"]
 license: "MPL-2.0"
 tags: ["cli" "tool" "git" "workflow"]
-homepage: "https://github.com/chshersh/zbg"
+homepage: "https://github.com/aresbit/gg"
 doc: "https://url/to/documentation"
-bug-reports: "https://github.com/chshersh/zbg/issues"
+bug-reports: "https://github.com/aresbit/gg/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.7"}
@@ -35,4 +35,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/chshersh/zbg.git"
+dev-repo: "git+https://github.com/aresbit/gg.git"

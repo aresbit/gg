@@ -1,11 +1,11 @@
 (lang dune 3.7)
 
-(name zbg)
+(name gg)
 
 (generate_opam_files true)
 
 (source
- (github chshersh/zbg))
+ (github aresbit/gg))
 
 (authors "Dmitrii Kovanikov")
 (maintainers "Dmitrii Kovanikov")
@@ -15,7 +15,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name zbg)
+ (name gg)
  (synopsis "Zero bullshit git")
  (description "A CLI tool to use git without ceremony")
  (depends
